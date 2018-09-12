@@ -1,0 +1,20 @@
+.logo{
+  max-width: 30%;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+}
+
+.textComp{
+  align-items: center;
+}
+
+.media{
+  height: 60%;
+}
+h3{
+  font-size: 6em;
+}
