@@ -22,17 +22,51 @@
 
 /*---------- HOVER EFFECT ON PICTURES-----------------------*/
 
-.second_img {
-  display: none;
+
+#homePortfolio {
+    height: 100vh;
+    background-image: url('images/bg1.png');
+    background-size: cover; 
 }
 
-.hover_img:hover .second_img {
-  display: block;
+
+.hidden-div-phil {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
 }
 
-.hover_img:hover .first_img {
-  display: none;
+.hidden-div-emer {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
 }
+
+.hidden-div-dave {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.62);
+    border-radius: 10px;
+}
+
+.hidden-div-alex {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.62);
+    border-radius: 10px;
+}
+
+.hidden-div-jeff {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.62);
+    border-radius: 10px;
+}
+
+.hidden-div-kev {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.62);
+    border-radius: 10px;
+}
+
+
 
 
 
@@ -45,11 +79,9 @@
 
 
  
-      .modal-lg {
-        max-width: 95%;
-        margin-top: 100px;
-      }
+.modal-lg {
+    max-width: 95%;
+    margin-top: 100px;
+}
 
-      i {
-        font-size: 2.5rem;
-      }
+i { font-size: 2.5rem;}
