@@ -12,7 +12,10 @@
 
 
 
-
+/* Modif Emeric pour du smooth scroll */
+html {
+    scroll-behavior: smooth; /*unsupported in IE and Safari*/
+}
 
 /*-----------------------------------------------------------------------------*/
 /*------------------------WELCOME PAGE-----------------------------------------*/
@@ -37,7 +40,6 @@
 
 
 
-
 /*-----------------------------------------------------------------------------*/
 /*------------------------MODAL------------------------------------------------*/
 /*-----------------------------------------------------------------------------*/
@@ -53,3 +55,81 @@
       i {
         font-size: 2.5rem;
       }
+
+
+/*-----------------------------------------------------------------------------*/
+/*------------------------HOME------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+#homepage {
+    max-width: 120em;
+    height: 60em;
+    min-height: 40em;
+        /*border: 2px solid black;*/
+    background-image: url(WCS1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: calc(100% + 450px);
+}
+
+.welcome {
+    padding-top: 9em;
+    margin: 0;
+}
+
+.titre1 h1{
+    max-width: 4em;
+    font-family: "Anton";
+    font-size: 7em;
+    line-height: 0.9;
+}
+
+.doublev {
+    color: #ea701e;
+}
+.titre2 h2{
+    font-size: 3.5em;
+    letter-spacing: 4px;
+    text-decoration: ;
+}
+
+@media (max-width: 768px) {
+    .titre2 h2 {
+        text-align: center;
+        font-size: 2em;
+        margin: auto;
+    }
+    .titre1 h1 {
+        text-align: center;
+        font-size: 5em;
+        margin: auto;
+    }
+    .welcome {
+        margin: auto;
+    }
+}
+
+.homePortfolio {
+    background-color: #f7f7f2;
+}
+
+.homePortfolio img{
+    border: 9px solid black;
+}
+
+/* essai essai essai */
+.perso {
+    position: absolute;
+    right: 130%;
+    background-image: url(standing-man-silhouette.png);
+    background-position: center;
+    background-size: contain;
+}
+.hover_img:hover .perso {
+    width: 200%;
+    height: 200%;
+    background-color: red;
+}
