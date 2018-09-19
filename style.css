@@ -19,8 +19,13 @@
 /*-----------------------------------------------------------------------------*/
 
 .first_img {
+    border: 6px solid rgba(244, 164, 67, 0.4);
     border-radius: 50%;
+}
 
+.first_img:hover {
+    border: 6px solid rgba(244, 164, 67, 0.8);
+    border-radius: 50%;
 }
 
 
@@ -31,7 +36,7 @@
 
 #homePortfolio {
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url('images/Background.png');
     background-size: cover; 
 }
 
@@ -41,8 +46,8 @@
 
 .hidden-div-phil {
     display: none;
-    background-color: rgba(0, 0, 0, 0.6);
-    background-image: url(images/Phil_preview.png);
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url(images/PhilippELSASSER.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -51,8 +56,8 @@
 
 .hidden-div-emer {
     display: none;
-    background-color: rgba(0, 0, 0, 0.9);
-    background-image: url(images/Alexandre%20GUERIN%20ORANGE.png);
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url(images/EmericGHERARDI.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -61,14 +66,18 @@
 
 .hidden-div-dave {
     display: none;
-    background-color: rgba(0, 0, 0, 0.62);
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url(images/DavidGABRIELE.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 10px;
 }
 
 .hidden-div-alex {
     display: none;
-    background-color: rgba(0, 0, 0, 0.62);
-        background-image: url(images/Alexandre%20GUERIN%20ORANGE.png);
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url(images/AlexandreGUERIN.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -77,13 +86,21 @@
 
 .hidden-div-jeff {
     display: none;
-    background-color: rgba(0, 0, 0, 0.62);
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url(images/JeffreyGERBE.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 10px;
 }
 
 .hidden-div-kev {
     display: none;
-    background-color: rgba(0, 0, 0, 0.62);
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url();
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 10px;
 }
 
