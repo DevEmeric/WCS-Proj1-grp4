@@ -1,0 +1,112 @@
+/*-----------------------------------------------------------------------------*/
+/*------------------------BASIC SETUP -----------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------*/
+/*------------------------WELCOME PAGE-----------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+
+.first_img {
+    border-radius: 50%;
+
+}
+
+
+
+
+/*---------- HOVER EFFECT ON PICTURES-----------------------*/
+
+
+#homePortfolio {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-size: cover; 
+}
+
+#img-switch {
+    background-size: cover;
+}
+
+.hidden-div-phil {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url(images/Phil_preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.hidden-div-emer {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-image: url(images/Alexandre%20GUERIN%20ORANGE.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.hidden-div-dave {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.62);
+    border-radius: 10px;
+}
+
+.hidden-div-alex {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.62);
+        background-image: url(images/Alexandre%20GUERIN%20ORANGE.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.hidden-div-jeff {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.62);
+    border-radius: 10px;
+}
+
+.hidden-div-kev {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.62);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------*/
+/*------------------------MODAL------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+
+
+
+ 
+.modal-lg {
+    max-width: 95%;
+    margin-top: 100px;
+}
+
+i { font-size: 2.5rem;}
+
+.modal-body {
+    background-image: url(images/Background.png);
+} 

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- rajout du framework jquery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="styleEm.css">
 
 </head>
@@ -81,7 +81,7 @@
             <div class="container">
                 
                 
-                    <h1 class="titre1"><span class="doublev">W</span>elcome <br/>on our</h1>
+                    <h1 class="titre1"><span class="doublev">W</span>elcome <br/>on  our</h1>
                 
                     <h2 class="titre2">Portfolio</h2>
                 
@@ -106,64 +106,62 @@
 
 
     <!-- Section card deck, accueil principal -->
-
-    <section class="homePortfolio">
-        <div clas="container" id="profiles">
-            <div class="row mt-5">
-                <div class="col-8 offset-4">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-6 col-md-12">
-                                <div class="row justify-content-between">
-                                    <div class="col-12 col-md-3 ">
-                                        <a href="#" data-toggle="modal" data-target="#modal_philipp" class="hover_img">
-                                            <!-- modif hover div perso -->
-                                            <div class="container-fluid perso"></div>
-                                            <img class="rounded-circle img-fluid first_img" src="images/philipp1.png" alt="philipp1">
-                                            <img class="rounded-circle img-fluid second_img" src="images/philipp2.png" alt="philipp2">
-                                        </a>
-                                        <p class="col text-center">Philipp</p>
-                                    </div>
-                                    <div class="col-12 col-md-3 ">
-                                        <a href="#" data-toggle="modal" data-target="#modal_emeric" class="hover_img">
-                                            <img class="rounded-circle img-fluid first_img" src="images/emeric1.png" alt="emeric1">
-                                            <img class="rounded-circle img-fluid second_img" src="images/emeric2.png" alt="emeric2">
-                                        </a>
-                                        <p class="col text-center">Emeric</p>
-                                    </div>
-                                    <div class="col-12 col-md-3 ">
-                                        <a href="#" data-toggle="modal" data-target="#modal_david" class="hover_img">
-                                            <img class="rounded-circle img-fluid first_img" src="images/david1.png" alt="david1">
-                                            <img class="rounded-circle img-fluid second_img" src="images/david2.png" alt="david2">
-                                        </a>
-                                        <p class="col text-center">David</p>
-                                    </div>
-                                </div>
+    <section id="homePortfolio" class="d-flex">
+        <div class="row h-100">
+            <div class="col-md-4 d-none d-md-block h-100" id="img-switch">
+                <div class="row h-50"></div>
+                <div class="row h-50 justify-content-center">
+                    <div class="col-10 h-50 hidden-div-phil"></div>
+                    <div class="col-10 h-50 hidden-div-emer"></div>
+                    <div class="col-10 h-50 hidden-div-dave"></div>
+                    <div class="col-10 h-50 hidden-div-alex"></div>
+                    <div class="col-10 h-50 hidden-div-jeff"></div>
+                    <div class="col-10 h-50 hidden-div-kev"></div>
+                </div>
+            </div>
+            <div class="col-12 col-md-8 my-auto">
+                <div class="row justify-content-around">
+                    <div class="col-6 col-md-12">
+                        <div class="row justify-content-around">
+                            <div class="col-10 col-md-4 col-lg-3 my-3">
+                                <a href="#" data-toggle="modal" data-target="#modal_philipp" class="changebg-phil">
+                                    <img class="img-fluid first_img" src="images/Phil_head.png" alt="philipp">
+                                </a>
+                                
                             </div>
-                            <div class="col-6 col-md-12">
-                                <div class="row justify-content-between">
-                                    <div class="col-12 col-md-3  ">
-                                        <a href="#" data-toggle="modal" data-target="#modal_alex" class="hover_img">
-                                            <img class="rounded-circle img-fluid first_img" src="images/alex1.png" alt="alex1">
-                                            <img class="rounded-circle img-fluid second_img" src="images/alex2.png" alt="alex2">
-                                        </a>
-                                        <p class="col text-center">Alex</p>
-                                    </div>
-                                    <div class="col-12 col-md-3  ">
-                                        <a href="#" data-toggle="modal" data-target="#modal_jeff" class="hover_img">
-                                            <img class="rounded-circle img-fluid first_img" src="images/jeff1.png" alt="jeff1">
-                                            <img class="rounded-circle img-fluid second_img" src="images/jeff2.png" alt="jeff2">
-                                        </a>
-                                        <p class="col text-center">Jeffrey</p>
-                                    </div>
-                                    <div class="col-12 col-md-3  ">
-                                        <a href="#" data-toggle="modal" data-target="#modal_kevin" class="hover_img">
-                                            <img class="rounded-circle img-fluid first_img" src="https://via.placeholder.com/1000x1000" alt="kevin1">
-                                            <img class="rounded-circle img-fluid second_img" src="https://via.placeholder.com/1000x1000" alt="kevin2">
-                                        </a>
-                                        <p class="col text-center">Kevin</p>
-                                    </div>
-                                </div>
+                            <div class="col-10 col-md-4 col-lg-3  my-3">
+                                <a href="#" data-toggle="modal" data-target="#modal_emeric" class="changebg-emer">
+                                    <img class="img-fluid first_img" src="images/Emer_head.png" alt="emeric">
+                                </a>
+                                
+                            </div>
+                            <div class="col-10 col-md-4 col-lg-3 my-3">
+                                <a href="#" data-toggle="modal" data-target="#modal_david" class="changebg-dave">
+                                    <img class="img-fluid first_img" src="images/Dave_head.png" alt="david">
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-12">
+                        <div class="row justify-content-around">
+                            <div class="col-10 col-md-4 col-lg-3 my-3">
+                                <a href="#" data-toggle="modal" data-target="#modal_alex" class="changebg-alex">
+                                    <img class="img-fluid first_img" src="images/Alex_head.png" alt="alex">
+                                </a>
+                                
+                            </div>
+                            <div class="col-10 col-md-4 col-lg-3 my-3">
+                                <a href="#" data-toggle="modal" data-target="#modal_jeff" class="changebg-jeff">
+                                    <img class="img-fluid first_img" src="images/Jeff_head.png" alt="jeff">
+                                </a>
+                                
+                            </div>
+                            <div class="col-10 col-md-4 col-lg-3 my-3">
+                                <a href="#" data-toggle="modal" data-target="#modal_kevin" class="changebg-kev">
+                                    <img class="img-fluid first_img" src="https://via.placeholder.com/1000x1000" alt="kevin">
+                                </a>
+                                
                             </div>
                         </div>
                     </div>
@@ -171,10 +169,7 @@
             </div>
         </div>
     </section>
-
-
-
-
+   
     <!-- Section modal avec: card + carousel -->
 
     <section class="modalPortfolio">
