@@ -81,7 +81,7 @@
 
     <section id="homePortfolio" class="d-flex">
         <div class="row h-100">
-            <div class="col-md-4 d-none d-md-block h-100">
+            <div class="col-md-4 d-none d-md-block h-100" id="img-switch">
                 <div class="row h-50"></div>
                 <div class="row h-50 justify-content-center">
                     <div class="col-10 h-50 hidden-div-phil"></div>
@@ -96,45 +96,45 @@
                 <div class="row justify-content-around">
                     <div class="col-6 col-md-12">
                         <div class="row justify-content-around">
-                            <div class="col-10 col-md-4 col-lg-3">
+                            <div class="col-10 col-md-4 col-lg-3 my-3">
                                 <a href="#" data-toggle="modal" data-target="#modal_philipp" class="changebg-phil">
-                                    <img class="rounded-circle img-fluid first_img" src="images/philipp1.png" alt="philipp1">
+                                    <img class="img-fluid first_img" src="images/Phil_head.png" alt="philipp">
                                 </a>
-                                <p class="col text-center">Philipp</p>
+                                
                             </div>
-                            <div class="col-10 col-md-4 col-lg-3">
+                            <div class="col-10 col-md-4 col-lg-3  my-3">
                                 <a href="#" data-toggle="modal" data-target="#modal_emeric" class="changebg-emer">
-                                    <img class="rounded-circle img-fluid first_img" src="images/emeric1.png" alt="emeric1">
+                                    <img class="img-fluid first_img" src="images/Emer_head.png" alt="emeric">
                                 </a>
-                                <p class="col text-center">Emeric</p>
+                                
                             </div>
-                            <div class="col-10 col-md-4 col-lg-3">
+                            <div class="col-10 col-md-4 col-lg-3 my-3">
                                 <a href="#" data-toggle="modal" data-target="#modal_david" class="changebg-dave">
-                                    <img class="rounded-circle img-fluid first_img" src="images/david1.png" alt="david1">
+                                    <img class="img-fluid first_img" src="images/Dave_head.png" alt="david">
                                 </a>
-                                <p class="col text-center">David</p>
+                                
                             </div>
                         </div>
                     </div>
                     <div class="col-6 col-md-12">
                         <div class="row justify-content-around">
-                            <div class="col-10 col-md-4 col-lg-3">
+                            <div class="col-10 col-md-4 col-lg-3 my-3">
                                 <a href="#" data-toggle="modal" data-target="#modal_alex" class="changebg-alex">
-                                    <img class="rounded-circle img-fluid first_img" src="images/alex1.png" alt="alex1">
+                                    <img class="img-fluid first_img" src="images/Alex_head.png" alt="alex">
                                 </a>
-                                <p class="col text-center">Alex</p>
+                                
                             </div>
-                            <div class="col-10 col-md-4 col-lg-3">
+                            <div class="col-10 col-md-4 col-lg-3 my-3">
                                 <a href="#" data-toggle="modal" data-target="#modal_jeff" class="changebg-jeff">
-                                    <img class="rounded-circle img-fluid first_img" src="images/jeff1.png" alt="jeff1">
+                                    <img class="img-fluid first_img" src="images/Jeff_head.png" alt="jeff">
                                 </a>
-                                <p class="col text-center">Jeffrey</p>
+                                
                             </div>
-                            <div class="col-10 col-md-4 col-lg-3">
+                            <div class="col-10 col-md-4 col-lg-3 my-3">
                                 <a href="#" data-toggle="modal" data-target="#modal_kevin" class="changebg-kev">
-                                    <img class="rounded-circle img-fluid first_img" src="https://via.placeholder.com/1000x1000" alt="kevin1">
+                                    <img class="img-fluid first_img" src="https://via.placeholder.com/1000x1000" alt="kevin">
                                 </a>
-                                <p class="col text-center">Kevin</p>
+                                
                             </div>
                         </div>
                     </div>
@@ -159,28 +159,26 @@
         <div class="modal" id="modal_philipp">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
-                    <div class="modal-header bg-primary justify-content-center">
+                    <div class="modal-header bg-dark justify-content-center">
                         <h2 class="text-light mt-2">Philipp Elsässer</h2>
                         <button class="close text-light" data-dismiss="modal">X</button>
                     </div>
                     <div class="modal-body">
                         <div class="row text-center">
                             <div class="col-md-3 offset-1 d-none d-md-block">
-                                <img src="images/philipp1.png" alt="photo" class="mt-3 rounded-circle img-fluid">
-                                <p class="mt-2">Developer</p>
+                                <img src="images/Phil_head.png" alt="photo" class="mt-3 rounded-circle img-fluid">
+                                <p class="mt-2">Developer Javascript</p>
                                 <h4>Biographie</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis natus architecto ab in corrupti sed voluptas autem voluptatum debitis vel.</p>
+                                <p>Born and raised in Frankfurt, Germany. Worked in pharmaceutical industrie for ten years before starting a formation in Web-Development September 2018.</p>
                             </div>
                             <div class="col-10 col-md-7 offset-1">
                                 <img src="https://via.placeholder.com/350x350" alt="carousel" class="img-fluid mt-5">
                             </div>
                         </div>
                     </div>
-                    <div class="modal-footer justify-content-center">
-                        <a href="#" class="social mx-3"><i class="fab fa-github"></i></a>
-                        <a href="#" class="social mx-3"><i class="fab fa-facebook-square"></i></a>
-                        <a href="#" class="social mx-3"><i class="fab fa-twitter-square"></i></a>
-                        <a href="#" class="social mx-3"><i class="fab fa-linkedin"></i></a>
+                    <div class="modal-footer bg-dark justify-content-center">
+                        <a href="#" class="social mx-3 text"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social mx-3 text-light"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
@@ -202,7 +200,7 @@
                     <div class="modal-body">
                         <div class="row text-center">
                             <div class="col-md-3 offset-1 d-none d-md-block">
-                                <img src="images/emeric1.png" alt="photo" class="mt-3 rounded-circle img-fluid">
+                                <img src="images/Emer_head.png" alt="photo" class="mt-3 rounded-circle img-fluid">
                                 <p class="mt-2">Developer</p>
                                 <h4>Biographie</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis natus architecto ab in corrupti sed voluptas autem voluptatum debitis vel.</p>
@@ -239,7 +237,7 @@
                     <div class="modal-body">
                         <div class="row text-center">
                             <div class="col-md-3 offset-1 d-none d-md-block">
-                                <img src="images/david1.png" alt="photo" class="mt-3 rounded-circle img-fluid">
+                                <img src="images/Dave_head.png" alt="photo" class="mt-3 rounded-circle img-fluid">
                                 <p class="mt-2">Developer</p>
                                 <h4>Biographie</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis natus architecto ab in corrupti sed voluptas autem voluptatum debitis vel.</p>
@@ -276,7 +274,7 @@
                     <div class="modal-body">
                         <div class="row text-center">
                             <div class="col-md-3 offset-1 d-none d-md-block">
-                                <img src="images/alex1.png" alt="photo" class="mt-3 rounded-circle img-fluid">
+                                <img src="images/Alex_head.png" alt="photo" class="mt-3 rounded-circle img-fluid">
                                 <p class="mt-2">Developer</p>
                                 <h4>Biographie</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis natus architecto ab in corrupti sed voluptas autem voluptatum debitis vel.</p>
@@ -314,7 +312,7 @@
                     <div class="modal-body">
                         <div class="row text-center">
                             <div class="col-md-3 offset-1 d-none d-md-block">
-                                <img src="images/jeff1.png" alt="photo" class="mt-3 rounded-circle img-fluid">
+                                <img src="images/Jeff_head.png" alt="photo" class="mt-3 rounded-circle img-fluid">
                                 <p class="mt-2">Developer</p>
                                 <h4>Biographie</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis natus architecto ab in corrupti sed voluptas autem voluptatum debitis vel.</p>

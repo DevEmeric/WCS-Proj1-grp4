@@ -18,6 +18,12 @@
 /*------------------------WELCOME PAGE-----------------------------------------*/
 /*-----------------------------------------------------------------------------*/
 
+.first_img {
+    border-radius: 50%;
+
+}
+
+
 
 
 /*---------- HOVER EFFECT ON PICTURES-----------------------*/
@@ -25,20 +31,31 @@
 
 #homePortfolio {
     height: 100vh;
-    background-image: url('images/bg1.png');
+    background-color: rgba(0, 0, 0, 0.8);
     background-size: cover; 
 }
 
+#img-switch {
+    background-size: cover;
+}
 
 .hidden-div-phil {
     display: none;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url(images/Phil_preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 10px;
 }
 
 .hidden-div-emer {
     display: none;
     background-color: rgba(0, 0, 0, 0.9);
+    background-image: url(images/Alexandre%20GUERIN%20ORANGE.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 10px;
 }
 
@@ -51,6 +68,10 @@
 .hidden-div-alex {
     display: none;
     background-color: rgba(0, 0, 0, 0.62);
+        background-image: url(images/Alexandre%20GUERIN%20ORANGE.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 10px;
 }
 
@@ -85,3 +106,7 @@
 }
 
 i { font-size: 2.5rem;}
+
+.modal-body {
+    background-image: url(images/Background.png);
+} 
